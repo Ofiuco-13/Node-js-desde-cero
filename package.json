@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "name": "node-js-desde-cero",
+  "description": "Curso introductorio de node",
+  "version": "1.0.0",
+  "main": "curso de nodejs",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ofiuco-13/Node-js-desde-cero.git"
+  },
+  "keywords": [
+    "nodejs",
+    "curso",
+    "spanish"
+  ],
+  "author": "Emma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ofiuco-13/Node-js-desde-cero/issues"
+  },
+  "homepage": "https://github.com/Ofiuco-13/Node-js-desde-cero#readme"
+}

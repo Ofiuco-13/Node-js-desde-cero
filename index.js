@@ -1,10 +1,14 @@
-const matematica = require("./matematica.js");
+const http = require("http");
+const colors = require("colors");
 
-console.log(matematica);
+const handleServer = (req, res) => {
+  res.writeHead(200, { "Content-type": "text/html" });
+  res.write("<h1>Hola Mundo</h1>");
+  res.end();
+};
 
-// console.log(matematica.sumar(1, 0));
-// console.log(matematica.restar(2, 1));
-// console.log(matematica.multiplicar(1, 0));
-// console.log(matematica.dividir(1, 0));
-// console.log(matematica.dividir(2, 1));
+const server = http.createServer(handleServer);
 
+server.listen(3000, () => {
+  console.log("Escuchando en el puerto 3000".green);
+});
